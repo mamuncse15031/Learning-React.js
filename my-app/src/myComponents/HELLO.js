@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HELLO(){
+function hello(){
 return(
 
     <h1> Hello, I am from function components</h1>
@@ -8,4 +8,4 @@ return(
 
 }
 
-export default HELLO;
+export default hello;
