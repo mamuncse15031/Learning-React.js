@@ -8,8 +8,12 @@ function App() {
   return (
     <div className="App">
 
-      <HELLO></HELLO>
-      <Welcome></Welcome>
+      <HELLO name="Mamun" age="28"></HELLO>
+      <HELLO name="Abdullah" age="27"></HELLO>
+      <HELLO name="Shuvo" age="26"></HELLO>
+      <HELLO name="Anay" age="25"></HELLO>
+
+      <Welcome ></Welcome>
 
     </div>
   );

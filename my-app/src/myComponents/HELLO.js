@@ -1,9 +1,9 @@
 import React from 'react'
 
-function hello(){
+function hello(props){
 return(
 
-    <h1> Hello, I am from function components</h1>
+    <h1> Name: {props.name} and Age: {props.age} </h1>
 );
 
 }
