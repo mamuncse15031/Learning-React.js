@@ -13,7 +13,10 @@ function App() {
       <HELLO name="Shuvo" age="26"></HELLO>
       <HELLO name="Anay" age="25"></HELLO>
 
-      <Welcome ></Welcome>
+      <Welcome name ='class 1' ></Welcome>
+      <Welcome name ='class 2'></Welcome>
+      <Welcome name ='class 3'></Welcome>
+      <Welcome name ='class 4'></Welcome>
 
     </div>
   );
