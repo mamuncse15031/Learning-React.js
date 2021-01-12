@@ -9,9 +9,8 @@ class Welcome extends Component{
 
     render(){
 
-        return 
-        <div>
-            <button onClick={this.doThisFromClass}></button>
+        return <div>
+            <button onClick={this.doThisFromClass}> Click Me </button>
             <h1>Welcome to {this.props.name}</h1>
         </div>
     }
