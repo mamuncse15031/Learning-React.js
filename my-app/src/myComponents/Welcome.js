@@ -2,15 +2,15 @@ import React, {Component} from 'react'
 
 class Welcome extends Component{
 
-    doThisFromClass(){
+    doThisFromClass(a){
 
-        alert("Button is clicked");
+        alert(a);
     }
 
     render(){
 
         return <div>
-            <button onClick={this.doThisFromClass}> Click Me </button>
+            <button onClick={this.doThisFromClass.bind(this,"I am from class")}> Click Me </button>
             <h1>Welcome to {this.props.name}</h1>
         </div>
     }
